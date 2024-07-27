@@ -62,10 +62,11 @@ int main()
 {
     cout << "Koyta integer nite can?\n";
     int n; cin >> n;
-    cout << n << " ta integer input nen\n";
     int arr[n];
+    cout << n << " ta integer input nen\n";
     for(int i=0; i<n; ++i)
         cin >> arr[i];
+    
     mergeSort(arr, 0, n);
     cout << "Array after sorting: ";
     printArray(arr, n);
