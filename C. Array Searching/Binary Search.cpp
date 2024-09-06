@@ -24,9 +24,9 @@ int main()
     int key_;
     cin >> key_;
     int index = binarySearch(arr_, 0, sz-1, key_);
-    if(index==-1)
-        cout << printf("%d is not found\n", key_);
+     if(index==-1)
+        cout << key_ << " is not found\n";
     else
-        printf("%d is found in index %d\n", key_, index);
+        cout << key_ << " is found in index: " << index;
     return 0;
 }
